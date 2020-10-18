@@ -24,11 +24,13 @@ public class Unit1Project{
 		char st=Birthday.charAt(8);
 		char uv=Birthday.charAt(9);
 	
-		
+		//name your variables using lowercase letters. Capital names are reserved for classes.
+		//Also, using substrings, is more efficient than using chars
 	System.out.print("Email:"+ef+wx+yz+ab+cd);
 	System.out.println("@sharkmail.com");
 	System.out.println("Temporary Password:" + gh+ij+kl+mn+op+qr+st+uv);
 	System.out.println("***This Temporary Password is very insecure! Please change it immediatly!!");
+		//I would reformat this allow for user input
 	
 		
 		
